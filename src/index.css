@@ -16,5 +16,5 @@
 }
 
 .divpara {
-  @apply font-[400] text-[10px] md:text-[18px] lg:text-[22px];
+  @apply font-[400] text-[10px]  lg:text-[22px];
 }
