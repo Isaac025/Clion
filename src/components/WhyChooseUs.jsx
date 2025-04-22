@@ -27,10 +27,10 @@ const WhyChooseUs = () => {
               and thrive in competitive markets.
             </p>
           </div>
-          <img src={frame1} alt="frame1" />
+          <img src={frame1} alt="frame1" className="md:w-[30%] lg:w-full" />
         </div>
         <div className="container flex-col-reverse">
-          <img src={frame2} alt="frame2" />
+          <img src={frame2} alt="frame2" className="md:w-[30%] lg:w-full" />
           <div className="divcontainer">
             <h1 className="heading">Expert Financial Guidance</h1>
             <p className="divpara">
@@ -54,7 +54,7 @@ const WhyChooseUs = () => {
               ensuring startups get the capital they need when they need it.
             </p>
           </div>
-          <img src={frame3} alt="frame3" />
+          <img src={frame3} alt="frame3" className="md:w-[30%] lg:w-full" />
         </div>
       </div>
     </div>

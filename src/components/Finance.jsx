@@ -36,12 +36,12 @@ const Finance = () => {
         <h1 className=" font-[500] text-[22px] text-center capitalize md:text-[45px] text-[#0c0c0c]">
           Creating efficient financial growth
         </h1>
-        <p className=" font-[400] text-[15px] text-[#363636] md:text-[22px] text-center">
+        <p className="font-[400] text-[15px] text-[#363636] md:text-[22px] text-center">
           Empower yourself with expert insights, practical strategies, and the
           tools to take control of your financial future.
         </p>
       </div>
-      <div className="flex flex-col md:flex-row items-center gap-4 mt-[40px]">
+      <div className="flex flex-col md:flex-wrap md:flex-row lg:flex-nowrap items-center gap-4 mt-[40px] md:justify-center lg:justify-start">
         {financeCards.map((card, i) => {
           const { shape, heading, message } = card;
           return (
@@ -54,7 +54,9 @@ const Finance = () => {
                 <h2 className="font-[500] text-[22px] text-[#0c0c0c] mb-[8px] ">
                   {heading}
                 </h2>
-                <p className="text-[#363636] text-[16px] font-[400]">{message}</p>
+                <p className="text-[#363636] text-[16px] font-[400]">
+                  {message}
+                </p>
               </div>
             </div>
           );
