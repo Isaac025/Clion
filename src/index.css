@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+.layout {
+  @apply max-w-[1240px] w-full p-2.5 mx-auto;
+}
+.container {
+  @apply flex  gap-5 md:flex-row items-center md:justify-between;
+}
+
+.heading {
+  @apply font-[700] text-[15px] md:text-[35px] capitalize text-[#0C0C0C];
+}
+
+.divcontainer {
+  @apply max-w-[582px] w-full p-3;
+}
+
+.divpara {
+  @apply font-[400] text-[10px] md:text-[22px];
+}
